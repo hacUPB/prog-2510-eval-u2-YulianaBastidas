@@ -18,10 +18,12 @@ La arquitectura RISC usa instrucciones simples y rápidas, optimizando el rendim
 ![Diferencias](image.png)
 
 ## Hardware
+
 El hardware es la parte física de un computador, incluyendo todos sus componentes que permiten su funcionamiento. los elementos de hardware funcionan de manera conjunta para procesar, almacenar, analizar y transmitir información.Algunos tipos son:
 
 
 ### CPU (Unidad Central de Procesamiento)
+
 Es el "cerebro" del computador, encargado de ejecutar instrucciones y procesar datos. Sus partes principales son:
 
 ![CPU](image-1.png)
@@ -50,6 +52,7 @@ Es un procesador especializado en manejar operaciones gráficas y tareas paralel
 
 **GPU**: Está optimizada para tareas paralelas y gráficas, con miles de núcleos pequeños.
 ### Memoria 
+
 Es donde se almacenan datos e instrucciones. Existen varios tipos:
 
 **Registros**: Memorias ultrarrápidas dentro de la CPU, usadas para almacenar datos temporales.
@@ -62,7 +65,10 @@ Es donde se almacenan datos e instrucciones. Existen varios tipos:
 
 ![Memoria](image-4.png)
 
+
+
 ### Dispositivos de entrada/salida
+
 Permiten la interacción entre el usuario y el sistema. Algunos ejemplos son:
 
 **Entrada**: Teclado, mouse, micrófono, escáner.
@@ -72,10 +78,13 @@ Permiten la interacción entre el usuario y el sistema. Algunos ejemplos son:
 **Entrada/Salida**: Pantallas táctiles, discos duros externos.
 
 
+
 ![imagen](image-5.png)
 
 
+
 ### Buses de datos
+
 Son canales que permiten la transferencia de datos entre los componentes del sistema. Los más importantes son:
 
 **Bus de datos**: Transfiere datos entre la CPU, memoria y dispositivos.
@@ -88,18 +97,21 @@ Son canales que permiten la transferencia de datos entre los componentes del sis
 
 
 ### Tarjeta madre (Motherboard)
+
  Conecta todos los componentes del sistema.
 
  ![alt text](image-7.png)
 
 
 ### Fuente de poder
+
  Suministra energía al sistema.
 
  ![alt text](image-8.png)
 
 
 ## Software 
+
 El software es un conjunto de programas, datos, instrucciones y procedimientos que permiten realizar tareas específicas en un sistema informático. Se divide en tres categorías:
 
 ![alt text](image-9.png)
@@ -118,6 +130,7 @@ El software es un conjunto de programas, datos, instrucciones y procedimientos q
 
 
 ### Procesos al encender una computadora
+
 Cuando enciendes una computadora, ocurren varios pasos:
 
 **BIOS/UEFI**: Se activa el sistema básico de entrada y salida, que verifica el hardware.
@@ -129,6 +142,7 @@ Cuando enciendes una computadora, ocurren varios pasos:
 **Listo para usar**: Aparece la pantalla de inicio y el sistema está preparado para recibir comandos.
 
 ### Desde que ingreso un dato hasta que veo el resultado
+
 -Presionas una tecla → El teclado envía una señal eléctrica al procesador.
 
 -La CPU interpreta la señal y busca la acción correspondiente.
@@ -138,9 +152,11 @@ Cuando enciendes una computadora, ocurren varios pasos:
 -La tarjeta gráfica procesa la información y la muestra en la pantalla.
 
 ### Codificación de datos internamente
+
 Los datos en el computador se representan en binario (0 y 1). Cada letra, número o imagen se convierte en una secuencia de estos valores, que el procesador entiende y manipula para ejecutar operaciones.
 
 ### Unidades de medida de datos
+
 Bit: Unidad básica de información en el ámbito digital, representando un valor binario de 0 o 1.
 
 Byte: Conjunto de 8 bits (representa un carácter).
@@ -156,8 +172,23 @@ Terabyte (TB): 1,024 GB.
 
 
 
+### Mapa conceptual
+
+
+
+
+![Mapa](Computador.png)
+
+
+
+
+
 **Cybergrafía**
 
 https://mefics.org/es/qu%C3%A9-es-la-arquitectura-risc-y-cisc-con-sus-ventajas-y-desventajas/
+
 https://concepto.de/software-de-aplicacion/
+
 https://alfabetismodigital.com/que-es-un-mega-bit-byte-kilo-giga-y-mas-unidades/
+
+**mapa coceptual**: https://www.canva.com/design/DAGeWLQ3HyU/wPAslUjSX0yu7olhjaGSKw/view?utm_content=DAGeWLQ3HyU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview
