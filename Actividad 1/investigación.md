@@ -1,4 +1,4 @@
-# Investigación
+# El computador digital moderno
 
 ## ¿Qué es un computador?
 
@@ -24,6 +24,8 @@ El hardware es la parte física de un computador, incluyendo todos sus component
 ### CPU (Unidad Central de Procesamiento)
 Es el "cerebro" del computador, encargado de ejecutar instrucciones y procesar datos. Sus partes principales son:
 
+![CPU](image-1.png)
+
 **ALU (Unidad Aritmético-Lógica)**: Realiza operaciones matemáticas (sumas, restas, etc.) y lógicas (comparaciones).
 
 **Unidad de control**: Coordina las actividades de la CPU, gestionando el flujo de datos y las instrucciones.
@@ -40,6 +42,8 @@ Es un procesador especializado en manejar operaciones gráficas y tareas paralel
 
 -Cálculos científicos y de inteligencia artificial.
 
+![GPU](image-3.png)
+
 **Comparación CPU vs GPU:**
 
 **CPU**: Es versátil y maneja tareas generales, pero con menos núcleos (4, 8, 16, etc.).
@@ -55,6 +59,9 @@ Es donde se almacenan datos e instrucciones. Existen varios tipos:
 **Principal** (RAM): Memoria volátil que almacena datos e instrucciones mientras el sistema está encendido.
 
 **Secundaria**: Almacenamiento no volátil, como discos duros (HDD), unidades de estado sólido (SSD) y dispositivos externos (USB, discos externos).
+
+![Memoria](image-4.png)
+
 ### Dispositivos de entrada/salida
 Permiten la interacción entre el usuario y el sistema. Algunos ejemplos son:
 
@@ -63,6 +70,11 @@ Permiten la interacción entre el usuario y el sistema. Algunos ejemplos son:
 **Salida**: Monitor, impresora, altavoces.
 
 **Entrada/Salida**: Pantallas táctiles, discos duros externos.
+
+
+![imagen](image-5.png)
+
+
 ### Buses de datos
 Son canales que permiten la transferencia de datos entre los componentes del sistema. Los más importantes son:
 
@@ -71,13 +83,27 @@ Son canales que permiten la transferencia de datos entre los componentes del sis
 **Bus de direcciones**: Indica la ubicación de los datos en la memoria.
 
 **Bus de control**: Gestiona las operaciones y la sincronización entre componentes.
+
+![alt text](image-6.png)
+
+
 ### Tarjeta madre (Motherboard)
  Conecta todos los componentes del sistema.
- ### Fuente de poder
+
+ ![alt text](image-7.png)
+
+
+### Fuente de poder
  Suministra energía al sistema.
 
+ ![alt text](image-8.png)
+
+
 ## Software 
-El software es un conjunto de programas, datos, instrucciones y procedimientos que permiten realizar tareas específicas en un sistema informático12345. Se divide en tres categorías:
+El software es un conjunto de programas, datos, instrucciones y procedimientos que permiten realizar tareas específicas en un sistema informático. Se divide en tres categorías:
+
+![alt text](image-9.png)
+
 
 **Software de sistema**: es necesario para que el hardware funcione correctamente.
 
@@ -86,6 +112,10 @@ El software es un conjunto de programas, datos, instrucciones y procedimientos q
 **Software de desarrollo**: se utiliza para crear programas y aplicaciones.
 
 ## Funcionamiento del computador
+
+![alt text](image-10.png)
+
+
 
 ### Procesos al encender una computadora
 Cuando enciendes una computadora, ocurren varios pasos:
