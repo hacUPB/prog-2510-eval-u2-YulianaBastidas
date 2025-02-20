@@ -186,4 +186,47 @@ FIN
 
 
 
+## Actividad de Evaluación: Comprensión de Conceptos
 
+### Identificar Algoritmos
+
+Responde si los siguientes enunciados representan un algoritmo. Justifica la respuesta:
+
+1. Una página web: La pag web puede contener información, imágenes etc, pero no posee pasos ordenados ni finitos para llevar a cabo.
+2. Una receta para hacer un pastel, donde se indican ingredientes y pasos a seguir: Si, porque una receta tiene pasos ordenados y finitos que el usuario debe seguir.
+3. "Piensa en un número y multiplícalo por otro": Se podría considerar como algoritmo pero le falta más claridad, como definir el número a multiplicar.
+4. Un manual de instrucciones para armar un mueble, con pasos detallados y un orden claro: Si es, tenemos pasos definidos y finitos.
+5. Una lista de compras organizada en orden alfabético: No lo es porque solo es información, se podría considerar como algoritmo si le aumentamos algún paso a hacer con la comida.
+
+### Variables y Constantes
+
+Indica si las siguientes afirmaciones describen una variable o una constante:
+
+1. El valor de la gravedad en la Tierra, 9.8 m/s².
+2. La edad de una persona calculada con base en el año actual y su año de nacimiento.
+3. La cantidad de dinero en una cuenta bancaria.
+4. La velocidad de la luz en el vacío, 299,792,458 m/s.
+5. El radio de un círculo.
+
+### Características de los Algoritmos
+
+Responde si los siguientes enunciados cumplen con las características de un algoritmo. Justifica la respuesta:
+
+1. Para elegir la ruta más corta entre varias ciudades, el algoritmo examina rutas candidatas, deteniéndose cuando los cambios en la distancia parecen lo suficientemente pequeños.
+2. Suma los números ingresados y muestra el resultado.
+3. Un conjunto de pasos para calcular el área de un rectángulo dado su base y altura.
+4. El algoritmo cuenta el número de votos obtenidos por cada uno de los candidatos de una elección para presidente. Empieza solicitando el nombre del candidato y finaliza cuando se ingresa el valor -1.
+
+
+### Comprensión de Herramientas
+
+Indica si las siguientes afirmaciones son ciertas o falsas respecto al pseudocódigo y diagramas de flujo:
+
+1. El pseudocódigo utiliza símbolos estándar para representar las operaciones lógicas.
+2. Los diagramas de flujo son una representación gráfica de un algoritmo.
+3. El pseudocódigo debe estar escrito en un lenguaje de programación específico.
+4. Un diagrama de flujo siempre debe tener un inicio y un fin claramente definidos.
+
+### Estructuras de Control
+
+Describe para qué sirven las estructuras de control. Redacta dos ejemplos, uno de tu vida diaria, es decir cuando tienes que tomar decisiones en tus actividades diarias y oto ejemplo en el que se tengan que utilizar cálculos matemáticos para tomar una u otra decisión.
