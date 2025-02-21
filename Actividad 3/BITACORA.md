@@ -202,35 +202,67 @@ Responde si los siguientes enunciados representan un algoritmo. Justifica la res
 
 Indica si las siguientes afirmaciones describen una variable o una constante:
 
-1. El valor de la gravedad en la Tierra, 9.8 m/s².
-2. La edad de una persona calculada con base en el año actual y su año de nacimiento.
-3. La cantidad de dinero en una cuenta bancaria.
-4. La velocidad de la luz en el vacío, 299,792,458 m/s.
-5. El radio de un círculo.
+1. El valor de la gravedad en la Tierra, 9.8 m/s²: es una constante porque ya tiene un valor fijo
+2. La edad de una persona calculada con base en el año actual y su año de nacimiento: Es variable, la edad cambia cada año, por lo que no es un valor fijo
+3. La cantidad de dinero en una cuenta bancaria: es variable, cambia según la plata que entre o salga de la cuenta
+4. La velocidad de la luz en el vacío, 299,792,458 m/s: Constante, no cambia
+5. El radio de un círculo: Variable, depende del tamaño de cada círculo
 
 ### Características de los Algoritmos
 
 Responde si los siguientes enunciados cumplen con las características de un algoritmo. Justifica la respuesta:
 
-1. Para elegir la ruta más corta entre varias ciudades, el algoritmo examina rutas candidatas, deteniéndose cuando los cambios en la distancia parecen lo suficientemente pequeños.
-2. Suma los números ingresados y muestra el resultado.
-3. Un conjunto de pasos para calcular el área de un rectángulo dado su base y altura.
-4. El algoritmo cuenta el número de votos obtenidos por cada uno de los candidatos de una elección para presidente. Empieza solicitando el nombre del candidato y finaliza cuando se ingresa el valor -1.
+1. Para elegir la ruta más corta entre varias ciudades, el algoritmo examina rutas candidatas, deteniéndose cuando los cambios en la distancia parecen lo suficientemente pequeños: No es un algoritmo, No hay reglas claras para decidir cuándo detenerse
+2. Suma los números ingresados y muestra el resultado: Si es un algoritmo, dice exactamente qué hacer (sumar y mostrar el resultado).
+3. Un conjunto de pasos para calcular el área de un rectángulo dado su base y altura: si es un algoritmo, se explica claramente qué hacer (multiplicar base × altura).
+4. El algoritmo cuenta el número de votos obtenidos por cada uno de los candidatos de una elección para presidente. Empieza solicitando el nombre del candidato y finaliza cuando se ingresa el valor -1: si es un algoritmo, explica bien qué hacer (pedir nombres y contar votos).
+Se detiene cuando alguien ingresa "-1", lo que da un final claro.
 
 
 ### Comprensión de Herramientas
 
 Indica si las siguientes afirmaciones son ciertas o falsas respecto al pseudocódigo y diagramas de flujo:
 
-1. El pseudocódigo utiliza símbolos estándar para representar las operaciones lógicas.
-2. Los diagramas de flujo son una representación gráfica de un algoritmo.
-3. El pseudocódigo debe estar escrito en un lenguaje de programación específico.
-4. Un diagrama de flujo siempre debe tener un inicio y un fin claramente definidos.
+1. El pseudocódigo utiliza símbolos estándar para representar las operaciones lógicas: Falso, el pseudocódigo usa texto escrito en un formato simple, no símbolos gráficos.
+2. Los diagramas de flujo son una representación gráfica de un algoritmo: Verdadero, un diagrama de flujo usa formas y flechas para mostrar el orden de los pasos de un algoritmo.
+3. El pseudocódigo debe estar escrito en un lenguaje de programación específico: Falso, el pseudocódigo no pertenece a ningún lenguaje de programación.
+4. Un diagrama de flujo siempre debe tener un inicio y un fin claramente definidos: Verdadero, todo diagrama de flujo debe comenzar con un símbolo de inicio y terminar con un fin, asegurando que el proceso tenga una estructura clara.
 
 ### Estructuras de Control
 
 Describe para qué sirven las estructuras de control. Redacta dos ejemplos, uno de tu vida diaria, es decir cuando tienes que tomar decisiones en tus actividades diarias y oto ejemplo en el que se tengan que utilizar cálculos matemáticos para tomar una u otra decisión.
 
+### ¿Para qué sirven las estructuras de control?
+
+Las estructuras de control son reglas que permiten decidir qué acciones realizar en un programa, dependiendo de ciertas condiciones. Se usan para:
+
+Tomar decisiones (ejemplo: si hace frío, me pongo un abrigo).
+
+Repetir acciones (ejemplo: contar hasta 10 en un bucle).
+
+Ejecutar tareas en orden lógico para resolver problemas.
+
+
+**Ejemplo 1**: Vida diaria
+
+**Decisión**: ¿Llevar paraguas o no?
+
+**Situación**:
+
+Si está lloviendo, llevo un paraguas.
+
+Si no está lloviendo, no lo llevo.
+
+
+**Ejemplo 2**: Cálculo matemático
+
+**Decisión**: Aprobar o reprobar un exámen.
+
+**Situación**:
+
+Si un estudiante tiene una calificación mayor o igual a 5, aprueba.
+
+Si tiene menos de 5, reprueba.
 
 ### Ejercico hecho en clase de la serie fibonacci
 
