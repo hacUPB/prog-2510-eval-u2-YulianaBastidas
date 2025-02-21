@@ -230,3 +230,12 @@ Indica si las siguientes afirmaciones son ciertas o falsas respecto al pseudocó
 ### Estructuras de Control
 
 Describe para qué sirven las estructuras de control. Redacta dos ejemplos, uno de tu vida diaria, es decir cuando tienes que tomar decisiones en tus actividades diarias y oto ejemplo en el que se tengan que utilizar cálculos matemáticos para tomar una u otra decisión.
+
+
+### Ejercico hecho en clase de la serie fibonacci
+
+Hice de una forma diferente el ejemplo
+
+![alt text](image-6.png)
+
+(Código hecho de colab)
