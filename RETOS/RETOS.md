@@ -95,14 +95,66 @@ Fin
 
 ## Pasos:
 
+**1-** Solicitamos la fecha de nacimiento (día, mes y año)
 
+**2-** Solicitamos la fecha actual (día, mes y año)
 
+**3-** Calculamos la edad inicial restando el año de nacimiento del año actual
 
-### Diagrama de flujo
+**4-** Determinamos si ya cumplió años:
 
+- Si el mes actual es menor al mes de nacimiento, significa que aún no ha cumplido años
 
+- Si el mes es el mismo pero el día actual es menor, tampoco ha cumplido años
+
+- Si el mes y el día coinciden, es su cumpleaños y se muestra un mensaje especial
+
+- En cualquier otro caso, ya celebró su cumpleaños este año
+
+**5-** Mostramos la edad calculada
 
 ### Pseudocódigo
+
+INICIO
+
+    // Pedir la fecha de nacimiento
+    ESCRIBIR "Ingrese el día de nacimiento:"
+    LEER dia_nac
+    ESCRIBIR "Ingrese el mes de nacimiento:"
+    LEER mes_nac
+    ESCRIBIR "Ingrese el año de nacimiento:"
+    LEER anio_nac
+
+    // Pedir la fecha actual
+    ESCRIBIR "Ingrese el día actual:"
+    LEER dia_actual
+    ESCRIBIR "Ingrese el mes actual:"
+    LEER mes_actual
+    ESCRIBIR "Ingrese el año actual:"
+    LEER anio_actual
+
+    // Calcular la edad inicial
+    edad ← anio_actual - anio_nac
+
+    // Verificar si la persona ya cumplió años o no
+    SI (mes_actual < mes_nac) O (mes_actual = mes_nac Y dia_actual < dia_nac) ENTONCES
+        edad ← edad - 1  // Aún no ha cumplido años este año
+        ESCRIBIR "Aún no ha celebrado su cumpleaños este año."
+    SINO SI (mes_actual = mes_nac Y dia_actual = dia_nac) ENTONCES
+        ESCRIBIR "Feliz Cumpleaños!"
+    SINO
+        ESCRIBIR "Ya celebró su cumpleaños este año."
+    FIN SI
+
+    // Mostrar la edad calculada
+    ESCRIBIR "Su edad actual es:", edad
+
+FIN
+
+
+
+
+
 
 
 5. 
@@ -132,7 +184,7 @@ Fin
 ![alt text](image-7.png)
 
 
-# Pseudocódigo
+### Pseudocódigo
 
 INICIO
 
@@ -360,21 +412,7 @@ Sumamos el término a resultado
 **5-** Cuando el bucle termina, mostramos el valor aproximado de e^x con los términos calculados
 
 
-
-10. 
-![alt text](image-14.png)
-
-## Pasos:
-
-
-
-
-
-
-
-
-
-### Pseudocódigo:
+### Pseudocódigo
 
 Inicio
 
@@ -401,3 +439,96 @@ Inicio
     Escribir "El valor aproximado de e^", x, " es:", resultado
 
 Fin  
+
+
+10. 
+![alt text](image-14.png)
+
+## Pasos:
+
+**1-** Pedimos al usuario que ingrese un valor para x (el ángulo en radianes)
+
+**2-** Pedimos al usuario cuántos términos quiere usar en la aproximación (más términos = mayor precisión)
+
+**3-** Empezamos el cálculo con resultado = x, porque el primer número de la serie es x
+
+**4-** Usamos variables auxiliares:
+
+**potencia** = x, que nos ayuda a calcular las potencias de x
+
+**factorial** = 1, para calcular los valores del factorial en el denominador
+
+**signo** = -1, porque los términos se suman y restan alternadamente
+
+**5-** Hacemos un bucle que repita el cálculo varias veces, dependiendo de cuántos términos pidió el usuario
+
+**6-** En cada repetición del ciclo:
+
+- Calculamos la potencia de x para el nuevo término
+
+- Calculamos el factorial del número correspondiente
+
+- Multiplicamos por signo para alternar sumas y restas
+
+- Sumamos o restamos este valor al resultado
+
+- Cambiamos signo para que en la siguiente repetición haga lo contrario
+
+**7-** Cuando terminamos el ciclo, mostramos el valor calculado de sen(x)
+
+
+
+
+
+### Pseudocódigo:
+
+Inicio
+
+    Escribir "Ingrese el valor de x (en radianes):"
+    Leer x
+    Escribir "Ingrese la cantidad de términos a usar:"
+    Leer n
+
+    resultado = x
+    potencia = x
+    factorial = 1
+    signo = -1
+
+    Para i = 1 Hasta n Hacer
+        exponente = 2 * i + 1
+        potencia = potencia * x * x
+        factorial = factorial * exponente * (exponente - 1)
+        termino = signo * (potencia / factorial)
+        resultado = resultado + termino
+        signo = signo * -1
+    Fin Para
+
+    Escribir "El valor aproximado de sen(", x, ") es:", resultado
+
+Fin
+
+
+## RETO FINAL 
+
+Toma el pseudocódigo de los 5 primeros ejercicios del reto y realiza la traducción a Python
+
+(Los códigos los realicé en google Colab)
+
+1. 
+![alt text](image-15.png)
+
+
+2. 
+![alt text](image-16.png)
+
+
+3. 
+![alt text](image-17.png)
+
+
+4. 
+![alt text](image-19.png)
+
+
+5. 
+![alt text](image-18.png)
